@@ -1,0 +1,51 @@
+A data warehouse (DW) is a central repository storing data in queryable forms. From a technical standpoint, a data warehouse is a relational database optimized for reading, aggregating, 
+and querying large volumes of data. Traditionally, DWs only contained structured data or data that can be arranged in tables. 
+However, modern DWs can also support unstructured data (such as images, pdf files, and audio formats).
+
+Without DWs, data scientists would have to pull data straight from the production database and may report different results to the same question or cause delays and even outages. 
+Serving as an enterprise’s single source of truth, the data warehouse simplifies the organization’s reporting and analysis, decision-making, and metrics forecasting.
+
+Data vault architecture is a method of building a data warehouse.
+Typically, a data warehouse doesn’t support as many concurrent users as a database designed for a small group of analysts and decision-makers.
+
+To construct a data warehouse, four essential components are combined.
+
+Data warehouse storage. 
+The foundation of data warehouse architecture is a database that stores all enterprise data allowing business users to access it to draw valuable insights.
+Data architects usually decide between on-premises and cloud-hosted DWs noting how the business can benefit from this or that solution. 
+Although the cloud environment is more cost-efficient, easier to scale up or down, and isn’t limited to a prescribed structure, it may lose to on-prem solutions regarding querying speed and security. 
+We’re going to list the most popular tools further on.A data architect can also design collective storage for your data warehouse – multiple databases running in parallel. 
+This will improve the warehouse’s scalability.
+
+Metadata.
+Adding business context to data, metadata helps transform it into comprehensible knowledge. 
+Metadata defines how data can be changed and processed. It contains information about any transformations or operations applied to source data while loading it into the data warehouse.
+
+Data warehouse access tools. 
+These instruments vary in functionality. For example, query and reporting tools are used for generating business analysis reports. 
+And data mining tools automate finding patterns and correlations in large amounts of data based on advanced statistical modeling techniques.
+
+Data warehouse management tools. 
+Spanning the enterprise, the data warehouse deals with a number of management and administrative operations. Dedicated data warehouse management tools exist to accomplish this.
+
+****** Data marts
+Simply speaking, a data mart is a smaller data warehouse (their size is usually less than 100Gb.). They become necessary when the company and the amount of its data grow and it becomes too long and ineffective to search for information in an enterprise DW.
+Instead, data marts are built to allow different departments (e.g., sales, marketing, C-suite) to access relevant information quickly and easily.
+
+There are three main types of data marts.
+
+Dependent data marts are created from an enterprise DW and used as a primary source of information (also known as a top-down approach).
+
+Independent data marts are standalone systems that function without DWs extracting information from various external and internal sources (it’s also known as a top-down approach).
+
+Hybrid data marts combine information from both DW and other operational systems.
+
+So, the main difference between data warehouses and data marts is that a DW is a large repository that holds all company data extracted from multiple sources, making it difficult to process and manage queries. 
+Meanwhile, a data mart is a smaller repository containing a limited amount of data for a particular business group or department.
+
+
+
+
+
+
+
