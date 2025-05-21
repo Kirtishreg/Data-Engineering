@@ -1,0 +1,25 @@
+What is data engineering?
+Data engineering is a set of operations to make data available and usable to data scientists, data analysts, business intelligence (BI) developers, and other specialists within an organization.
+It takes dedicated experts – data engineers – to design and build systems for gathering and storing data at scale as well as preparing it for further analysis.
+
+Within a large organization, there are usually many different types of operations management software (e.g., ERP, CRM, production systems, etc.), all containing databases with varied information. 
+Besides, data can be stored as separate files or pulled from external sources — such as IoT devices — in real time. 
+Having data scattered in different formats prevents the organization from seeing a clear picture of its business state and running analytics.
+
+Data engineering process?
+The data engineering process covers a sequence of tasks that turn a large amount of raw data into a practical product meeting the needs of analysts, data scientists, machine learning engineers, and others. 
+Typically, the end-to-end workflow consists of the following stages.
+
+Data ingestion (acquisition): moves data from multiple sources — SQL and NoSQL databases, IoT devices, websites, streaming services, etc. 
+— to a target system to be transformed for further analysis. Data comes in various forms and can be both structured and unstructured.
+
+Data transformation: adjusts disparate data to the needs of end users. 
+It involves removing errors and duplicates from data, normalizing it, and converting it into the needed format.
+
+Data serving: delivers transformed data to end users — a BI platform, dashboard, or data science team. 
+
+Data flow orchestration: provides visibility into the data engineering process, ensuring that all tasks are successfully completed. 
+It coordinates and continuously tracks data workflows to detect and fix data quality and performance issues.
+
+The mechanism that automates ingestion, transformation, and serving steps of the data engineering process is known as a data pipeline.
+
