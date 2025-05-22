@@ -1,0 +1,63 @@
+Hadoop is a foundational framework in big data engineering that allows for the distributed storage and processing of large datasets across clusters of computers. 
+It was one of the first systems to make big data processing scalable and cost-effective using commodity hardware.
+
+Apache Hadoop is an open-source framework that enables:
+Storage of large datasets across multiple machines (via HDFS),
+Parallel processing of data (via MapReduce or other engines),
+Fault tolerance and horizontal scalability.
+
+| Component                                  | Function                                                      |
+| ------------------------------------------ | ------------------------------------------------------------- |
+| **HDFS (Hadoop Distributed File System)**  | Distributed storage system for large datasets                 |
+| **YARN (Yet Another Resource Negotiator)** | Resource management and job scheduling                        |
+| **MapReduce**                              | Programming model for processing large-scale data in parallel |
+| **Common**                                 | Set of shared utilities and libraries used by Hadoop modules  |
+
+
+Hadoop isn't used alone—it's part of a broader ecosystem that supports data ingestion, processing, querying, and more.
+
+🔽 1. Data Ingestion
+Flume – Ingests log data.
+Sqoop – Transfers data between Hadoop and relational databases.
+Kafka – Real-time data streaming.
+
+🗄️ 2. Data Storage
+HDFS – Main storage system.
+HBase – NoSQL database on top of HDFS for random, real-time access to big data.
+
+⚙️ 3. Data Processing
+MapReduce – Original batch processing engine.
+Apache Spark – Faster, in-memory engine for batch and stream processing (now more popular than MapReduce).
+Tez – Optimized DAG execution engine for Hive and Pig.
+Storm and Flink – Real-time streaming engines.
+
+📊 4. Query & Analysis
+Hive – SQL-like querying of large datasets.
+Pig – High-level scripting for data transformation.
+Impala – Real-time, low-latency SQL queries on HDFS.
+Drill – SQL on semi-structured and nested data.
+
+🗂️ 5. Metadata Management
+Apache Hive Metastore – Stores schema and metadata for Hive.
+Apache Atlas – Data governance and metadata catalog.
+
+🛡️ 6. Security & Monitoring
+Ranger – Authorization and audit framework.
+Knox – Gateway for securing Hadoop clusters.
+Ambari – Management and monitoring tool for Hadoop clusters.
+
+🔄 Typical Hadoop Workflow in Data Engineering
+Ingest data (Flume, Sqoop, Kafka)
+Store in HDFS
+Process with Spark/MapReduce
+Transform and analyze using Hive or Pig
+Query results or load into a warehouse
+Monitor and secure with Ambari, Ranger
+
+✅ Why Hadoop Is Important in Data Engineering
+Handles petabytes of data efficiently.
+Supports horizontal scaling—just add more nodes.
+Fault-tolerant (data replicated across nodes).
+Enables batch and stream processing.
+Strong integration with modern tools like Spark and Kafka.
+
