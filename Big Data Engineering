@@ -1,0 +1,22 @@
+Speaking about data engineering, we can’t ignore Big Data. Grounded in the four Vs – volume, velocity, variety, and veracity – it usually floods large technology companies like YouTube, Amazon, or Instagram. 
+Big Data engineering is about building massive reservoirs and highly scalable and fault-tolerant distributed systems.
+
+Big data architecture differs from conventional data handling, as here we’re talking about such massive volumes of rapidly changing information streams that a data warehouse can’t accommodate.
+That’s where a data lake comes in handy.
+
+Big Data Engineering is a specialized branch within Data Engineering that focuses on designing, building, and maintaining systems capable of handling large-scale, complex, 
+and high-velocity data—commonly known as big data.
+
+Key Responsibilities of a Big Data Engineer
+Data Ingestion: Designing pipelines that pull data from multiple high-volume sources (e.g., logs, sensors, APIs, streams).
+
+Distributed Storage: Managing systems like Hadoop HDFS, Amazon S3, or cloud-based object stores.
+
+Data Processing: Using parallel and distributed processing engines (e.g., Apache Spark, Flink, MapReduce).
+
+Data Modeling: Designing efficient schemas for large-scale analytics, often using NoSQL systems like Cassandra, HBase, or Bigtable.
+
+Performance Optimization: Ensuring scalability and speed across massive datasets.
+
+Real-time Streaming: Handling data in motion using tools like Apache Kafka or Apache Storm.
+
