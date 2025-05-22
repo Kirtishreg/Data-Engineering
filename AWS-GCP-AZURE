@@ -1,0 +1,13 @@
+| Stage                     | **AWS**                                           | **Azure**                                                       | **GCP**                                                      |
+| ------------------------- | ------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------ |
+| **Data Ingestion**        | - Kinesis<br>- AWS DMS<br>- Firehose              | - Event Hubs<br>- IoT Hub<br>- Data Factory (ingest connectors) | - Pub/Sub<br>- Transfer Service<br>- IoT Core                |
+| **Raw Storage**           | - Amazon S3                                       | - Azure Data Lake Storage Gen2                                  | - Google Cloud Storage                                       |
+| **Batch Processing**      | - AWS Glue (Spark)<br>- EMR (Spark, Hive, Hadoop) | - Azure Data Factory<br>- Synapse Pipelines                     | - Cloud Dataflow (Apache Beam)<br>- Dataproc (Spark, Hadoop) |
+| **Stream Processing**     | - Kinesis Data Analytics<br>- EMR Streaming       | - Stream Analytics<br>- Synapse Streaming                       | - Cloud Dataflow<br>- Pub/Sub + BigQuery                     |
+| **Data Warehouse**        | - Amazon Redshift                                 | - Azure Synapse Analytics                                       | - BigQuery                                                   |
+| **Orchestration**         | - AWS Step Functions<br>- Managed Airflow         | - Azure Data Factory<br>- Synapse Pipelines                     | - Cloud Composer (Airflow)                                   |
+| **NoSQL DBs**             | - DynamoDB<br>- Amazon DocumentDB                 | - Cosmos DB                                                     | - Firestore<br>- Bigtable                                    |
+| **Metadata & Cataloging** | - AWS Glue Data Catalog                           | - Azure Purview                                                 | - Data Catalog                                               |
+| **Security**              | - IAM, KMS, Lake Formation                        | - Azure Active Directory, RBAC                                  | - IAM, Cloud KMS, VPC Service Controls                       |
+| **Monitoring**            | - CloudWatch<br>- CloudTrail                      | - Azure Monitor<br>- Log Analytics                              | - Cloud Monitoring<br>- Cloud Logging                        |
+| **Visualization**         | - Amazon QuickSight                               | - Power BI                                                      | - Looker / Looker Studio                                     |
