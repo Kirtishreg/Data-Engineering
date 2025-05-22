@@ -1,0 +1,12 @@
+A data lake is a vast pool for saving data in its native, unprocessed form. It stands out for its high agility as it isn’t limited to a warehouse’s fixed configuration.
+
+A Data Lake is a centralized storage system that allows you to store structured, semi-structured, and unstructured data at any scale. 
+Unlike traditional databases or data warehouses, a data lake doesn't require data to be cleaned or transformed before storing it—this is often done later when the data is actually needed.
+
+A data lake uses the ELT approach and starts data loading immediately after extracting it, handling raw — often unstructured — data.
+
+A data lake is worth building in those projects that will scale and need a more advanced architecture. Besides, it’s very convenient when the purpose of the data hasn’t been determined yet. 
+In this case, you can load data quickly, store it, and modify it as necessary.
+
+Data lakes are also a powerful tool for data scientists and ML engineers, who would use raw data to prepare it for predictive analytics and machine learning.
+Lakes are built on large, distributed clusters that would be able to store and process masses of data. A famous example of such a data lake platform is Hadoop.
