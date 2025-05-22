@@ -4,3 +4,7 @@ refers to the computing approach allowing users to analyze multidimensional data
 not designed for analyzing massive amounts of data from different perspectives.
 Information from DWs is aggregated and loaded into the OLAP cube, where it gets precalculated and is readily available for user requests.
 
+Within OLAP, data can be analyzed from multiple perspectives. For example, it can be drilled down/rolled up if you need to change the hierarchy level of data representation and get a more or less detailed picture. 
+You can also slice information to segment a particular dataset as a separate spreadsheet or dice it to create a different cube.
+These and other techniques enable finding patterns in varied data and creating a wide range of reports.
+
