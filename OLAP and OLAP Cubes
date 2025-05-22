@@ -1,0 +1,6 @@
+OLAP or Online Analytical Processing
+
+refers to the computing approach allowing users to analyze multidimensional data. It’s contrasted with OLTP or Online Transactional Processing, a simpler method of interacting with databases, 
+not designed for analyzing massive amounts of data from different perspectives.
+Information from DWs is aggregated and loaded into the OLAP cube, where it gets precalculated and is readily available for user requests.
+
